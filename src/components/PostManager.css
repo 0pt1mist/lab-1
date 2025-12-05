@@ -1,0 +1,100 @@
+.post-manager {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.post-form {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.post-form input,
+.post-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #007bff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+}
+
+.error-msg {
+  background-color: #ffcccc;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.loader {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.post-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.post-content strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.post-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
